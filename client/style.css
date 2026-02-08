@@ -1,0 +1,85 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fcfbf8;
+    color: #333;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #d4d4d8;
+    border-radius: 10px;
+}
+
+#hero-section {
+    background-image: linear-gradient(rgba(26, 34, 46, 0.7), rgba(26, 34, 46, 0.7)), url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCAAEAAYDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAD/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAAAhEDEQA/AJgAAAA//9k=');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+#essence-section {
+    background-color: #fefefe;
+    padding: 8rem 0;
+}
+
+#dashboard-section {
+    background-color: #f7f5f2;
+    padding: 6rem 0;
+}
+
+#patients-section {
+    background-color: #ffffff;
+    padding: 6rem 0;
+}
+
+#form-section {
+    background-color: #f7f5f2;
+    padding: 6rem 0;
+}
+
+@media (max-width: 768px) {
+    .responsive-table {
+        border: 0;
+    }
+
+    .responsive-table thead {
+        display: none;
+    }
+
+    .responsive-table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid #e0e0e0;
+        border-radius: 0.75rem;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    }
+
+    .responsive-table td {
+        display: block;
+        text-align: right !important;
+        padding: 0.75rem 1rem;
+        border-bottom: 1px dotted #e0e0e0;
+    }
+
+    .responsive-table td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: 600;
+        color: #555;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+    }
+
+    .responsive-table td:last-child {
+        border-bottom: 0;
+    }
+}
