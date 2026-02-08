@@ -1,16 +1,23 @@
 Get Started: Aura Dental App
+
 To run our group project locally:
 
 1. Download all files from the repository (or clone the repository using Git).
 
-2. Open the files in VS Code and then open terminal.
+2. Open the project in VS Code and open the terminal.
 
-3. Navigate to Client: cd client
+3. Install backend dependencies:
+npm install
 
-4. Install: npm install
+4. Navigate to Client:
+cd client
 
-5. Start: npm run dev
+5. Install frontend dependencies:
+npm install
 
-6. Access: Click the localhost link provided in the terminal to view the website.
+6. Start the application:
+npm run dev
 
-This React/Tailwind dashboard showcases modern front-end state management and collaborative development principles.
+7. Access: Click the localhost link provided in the terminal to view the website.
+
+This MERN-based React/Tailwind dashboard demonstrates modern full-stack development and collaborative project practices.
