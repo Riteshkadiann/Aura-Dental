@@ -1,4 +1,4 @@
-Get Started: Aura Dental App
+## Get Started: Aura Dental App
 
 To run our group project locally:
 
@@ -21,3 +21,9 @@ npm run dev
 7. Access: Click the localhost link provided in the terminal to view the website.
 
 This MERN-based React/Tailwind dashboard demonstrates modern full-stack development and collaborative project practices.
+
+## 📸 Preview
+
+![Dashboard](assets/dashboard.png)
+![Customer](assets/customer-ratings.png)
+![Patient](assets/patient-records.png)
